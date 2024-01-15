@@ -1,0 +1,67 @@
+body {
+    background: black;
+    font-family: "Nunito", sans-serif;
+    padding: 20px;
+    
+}
+
+.flex-container {
+    
+    background-color: black;
+  }
+  
+  .flex-container > button {
+    background-color:rgb(178,34,34);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    border-radius: 15px;
+    color: #fff;
+    border: 1px solid tomato;
+    cursor: pointer;
+    text-decoration: none
+}
+
+.flex-container > button a {
+    margin: 10px;
+    padding: 20px 2px;
+    font-size: 23px;
+    font-family: "Nunito", sans-serif;
+    border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+.flex-container > button:hover {
+    background-color: rgb(128,0,0);
+    transition: background-color 0.5s ease;
+
+
+}
+
+h2 {
+        color: #fff;
+        font-family: "Nunito", sans-serif;
+        font-size: 35px;
+        left: 25px;
+        right: 25px;
+        text-align: center;
+}
+
+h1 {
+    color: #fff;
+}
+
+footer{
+    position: absolute;
+left: 25px;
+right: 25px;
+text-align: center;
+font-size: 25px;
+opacity: .7;
+color: white;
+font-family: "Nunito", sans-serif;
+}

@@ -1,0 +1,93 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap");
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(59,19,10,1) 35%, rgba(175,30,30,1) 91%);
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  color: aliceblue;
+}
+
+/* Header */
+.header__center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(59,19,10,1) 35%, rgba(175,30,30,1) 91%);  
+  color: aliceblue;
+  padding: 32px;
+}
+
+.header__title {
+  /* border: 2px solid tomato; */
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.header__title:hover {
+  color: rgba(17, 178, 180, 0.623);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+/* Main */
+.main__container {
+  /* border: 4px solid green; */
+  display: flex;
+  justify-content: center;
+}
+
+.grupo__canais {
+  /* border: 6px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 16px 16px;
+  max-width: 100%; 
+  margin-top: 32px;
+  border-radius: 15px;
+  padding: 50px;
+}
+
+.canal {
+  /*border: 2px solid tomato; */
+   /* padding: 16px; */
+}
+
+.canal img {
+  display: block;
+  max-width: 100%;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 32px;
+}
+
+.canal img:hover {
+    color: #bfbfbf;
+    transition: 0.4s ease;
+    opacity: 0.4;
+}
+
+.canal p {
+  padding-top: 5px;
+  text-align: center;
+}
+
+.nao img{ 
+    /* border: 6px solid blue; */
+    display: block;
+    max-width: 100%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 32px;
+  }
+
